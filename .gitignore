@@ -110,3 +110,18 @@ Generated_Code/
 
 # Entity Framework migrations snapshot
 *Migrations/*.Designer.cs
+
+# ASP.NET / Blazor
+appsettings.Development.json
+secrets.json
+*.db
+*.db3
+*.sqlite
+*.db-shm
+*.db-wal
+node_modules/
+bower_components/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
