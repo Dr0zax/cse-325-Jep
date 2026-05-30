@@ -595,7 +595,7 @@ $.validator.addMethod( "creditcardtypes", function( value, element, param ) {
  * Symbols can be optional or required. Symbols required by default
  *
  * Usage examples:
- *  currency: ["£", false] - Use false for soft currency validation
+ *  currency: ["$", false] - Use false for soft currency validation
  *  currency: ["$", false]
  *  currency: ["RM", false] - also works with text based symbols such as "RM" - Malaysia Ringgit etc
  *
@@ -615,7 +615,7 @@ $.validator.addMethod( "creditcardtypes", function( value, element, param ) {
  *
  * Multiple Symbols
  *  currencyInput: {
- *     currency: "$,£,¢"
+ *     currency: "$,$,¢"
  *  }
  */
 $.validator.addMethod( "currency", function( value, element, param ) {
